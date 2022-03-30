@@ -21,12 +21,13 @@ export default class Products extends Component{
                             <button>
                                 Add to Cart
                                 </button>
-                            </button>
+                          
                         </div>
                         </div>
                     </li>
-                    </ul>
+                   
                 ))}
+                </ul>
             </div>
         )
     }
