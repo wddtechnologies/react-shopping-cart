@@ -8,7 +8,7 @@ export default class Products extends Component{
                 {this.props.products.map(product =>(
                     <li key={product._id}>
                         <div className="product">
-                        <a href={"#" + "product.-id"}>
+                        <a href={"# + product.-id"}>
                             <img src={product.image} alt={product.title}></img>
                             <p>
                                 {product.title}
@@ -18,7 +18,7 @@ export default class Products extends Component{
                             <div>
                                 {product.price}
                             </div>
-                            <button className="button primary">
+                            <button className="button-primary">
                                 Add to Cart
                                 </button>
                           
